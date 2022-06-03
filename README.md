@@ -1,0 +1,1 @@
+This portfolio website is built using NextJS, Tailwind CSS and content is managed in Netlify CMS

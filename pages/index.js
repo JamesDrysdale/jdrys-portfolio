@@ -1,6 +1,7 @@
 import Head from "next/head"
 import { Component } from 'react'
 import { attributes, react as HomeContent } from '../content/home.md';
+import styles from '../styles/Home.module.css';
 
 export default class Home extends Component {
   render() {
@@ -11,8 +12,11 @@ export default class Home extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <article>
-          <h1>{title}</h1>
+          <h1 className="text-4xl">{title}</h1>
+
+          
           <HomeContent />
+
           <ul>
             {posts.map((post, k) => (
               <li key={k}>
