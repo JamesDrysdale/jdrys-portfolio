@@ -14,8 +14,8 @@ export default function header() {
             </div>
             <div className="w-96 order-1 flex justify-center">
                 <div className="flex gap-6">
-                    <a><FaLinkedin color="#888" /></a>
-                    <a><FaGithub color="#888" /></a>
+                    <a href="https://www.linkedin.com/in/james-drysdale/"><FaLinkedin color="#888" /></a>
+                    <a href="https://github.com/JamesDrysdale"><FaGithub color="#888" /></a>
                 </div>
             </div>
         </div>
