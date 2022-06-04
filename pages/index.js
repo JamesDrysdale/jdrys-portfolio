@@ -4,6 +4,7 @@ import { attributes, react as HomeContent } from '../content/home.md';
 import styles from '../styles/Home.module.css';
 
 import Header from '../components/header';
+import Footer from '../components/footer';
 
 export default class Home extends Component {
   render() {
@@ -15,6 +16,8 @@ export default class Home extends Component {
         </Head>
 
         <Header />
+
+        <Footer />
 
         {/* <article>
           <h1 className="text-4xl">{title}</h1>
