@@ -12,7 +12,8 @@ export default class Home extends Component {
     return (
       <>
         <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+            <title>James Drysdale</title>
+            <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
 
         <Header />
