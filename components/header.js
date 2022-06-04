@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Link from 'next/link';
 
 export default function header() {
   return (
@@ -10,7 +11,9 @@ export default function header() {
                 <input type="text" className="input-text" placeholder="Search..."/>
             </div>
             <div className="shrink w-80 sm:order-2">
-                <a className="font-bold uppercase text-3xl">James Drysdale</a>
+                <Link href={'/'}>
+                    <a className="font-bold uppercase text-3xl">James Drysdale</a>
+                </Link>
             </div>
             <div className="w-96 order-1 flex justify-center">
                 <div className="flex gap-6">
